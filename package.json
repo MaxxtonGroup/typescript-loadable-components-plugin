@@ -1,6 +1,6 @@
 {
   "name": "maxxton-typescript-loadable-components-plugin",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "A custom transformer of typescript that is used to add some necessary properties to loadable-components.",
   "author": "acrazing <joking.young@gmail.com>",
   "main": "lib/index.js",
@@ -26,8 +26,7 @@
     "*.less",
     "*.scss"
   ],
-  "scripts": {
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git@github.com:acrazing/typescript-loadable-components-plugin.git"
