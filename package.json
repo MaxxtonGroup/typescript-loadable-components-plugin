@@ -57,5 +57,31 @@
     "tslib": "^2.1.0",
     "typescript": "^4.2.3"
   },
-  "cliVersion": "8.11.2"
+  "cliVersion": "8.11.2",
+  "babel": {
+    "presets": [
+      [
+        "@babel/preset-env",
+        {
+          "targets": {
+            "chrome": "70"
+          },
+          "modules": false
+        }
+      ],
+      [
+        "@babel/preset-typescript",
+        {
+          "isTSX": true,
+          "allExtensions": true
+        }
+      ],
+      [
+        "@babel/preset-react"
+      ]
+    ],
+    "plugins": [
+      "@loadable/babel-plugin"
+    ]
+  }
 }
