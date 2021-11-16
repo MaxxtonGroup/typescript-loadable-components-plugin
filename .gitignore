@@ -4,7 +4,6 @@ build/
 temp/
 esm/
 cjs/
-lib/
 *.log
 local.*
 local-*
